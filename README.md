@@ -2,9 +2,9 @@
 ESP32-CAM-Video-Telegram
 
 - Runs on ESP32-CAM AI-Thinker, stores video in SPIFFS - No need SD-Card!
-- Record avi video on ESP32-CAM and send to Telegram on PIR/Motion (GPIO13) event or request
+- Record avi video on ESP32-CAM and send to Telegram on PIR Sensor / Microwave Radar Motion Sensor RCWL-0516 (GPIO13) event or request
 - WiFi manager to configure wifi credentials and telegram ID & AIP token by a PushButton GPIO12 (>=3sec), 1s = soft reboot
-- Auto reconnect / reboot if wifi disconnected
+- Auto reconnect / reboot if wifi disconnected then enter config portal (AP mode) for 2 minutes
 - Fast blink - In config portal AP mode
 
 Telegram commands:
